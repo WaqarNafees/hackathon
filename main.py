@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 # ---- Load model once ----
-lr = joblib.load("model/logistic_regression.pkl")
+lr = joblib.load("logistic_regression.pkl")
 
 
 
